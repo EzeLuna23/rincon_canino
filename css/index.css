@@ -58,7 +58,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
 
 }
 
@@ -79,7 +79,7 @@ footer {
 #dog {
     max-width: 450px;
     border-style: hidden;
-    border-radius:100%;
+    border-radius: 100%;
     animation: be_crazy 4s infinite alternate ease-in-out;
 
 }
@@ -120,7 +120,7 @@ a {
 }
 
 .titulo:hover {
-transform: scale(1.1);
+    transform: scale(1.1);
 
 }
 
@@ -179,10 +179,10 @@ h4 {
 
 #divisor_contacto {
     display: flex;
-    
+
     gap: 90px;
     margin-top: 100px;
-    
+
 
 }
 
@@ -406,10 +406,10 @@ img {
 
 @keyframes be_crazy {
 
-from {
-    transform: rotate(0deg);
-}
+    from {
+        transform: rotate(0deg);
+    }
 
-to {
-    transform: rotate(360deg);
-}
+    to {
+        transform: rotate(360deg);
+    }
