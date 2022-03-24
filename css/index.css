@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
+
+}
+
+
+body {
+
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 8vh auto 5vh;
+    grid-template-areas:
+
+        "header"
+        "main"
+        "footer";
+
+
+}
+
+header {
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    align-items: flex-end;
+
+
+}
+
+
+main {
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    gap: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large;
+
+
+}
+
+.section_one {
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+
+}
+
+
+
+
+footer {
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    display: flex;
+    justify-content: flex-end;
+    text-align: right;
+    padding-right: 2%;
+    padding-top: 10px;
+
+
+}
+
+#dog {
+    max-width: 600px;
+    border-style: hidden;
+    border-radius: 100%;
+
+
+
+}
+
+
+
+
+
+.menu {
+
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.5em;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu>li>a:hover {
+    color: white;
+
+}
+
+
+
+.titulo {
+
+    color: black;
+    font-size: 3em;
+}
+
+p {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+/* Quienes somos */
+
+
+
+#quienes_somos_divisor {
+
+    display: flex;
+    gap: 100px;
+}
+
+h3 {
+
+    font-family: 'Quattrocento Sans', sans-serif;
+    margin-top: 10px;
+
+}
+
+#video_center {
+
+    margin-top: 150px;
+    margin-right: 20px;
+}
+
+h4 {
+
+    margin-top: 20px;
+    font-size: 100px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+#header_nosotros {
+    background-image: linear-gradient(to left, green, orange);
+}
+
+#main_nosotros {
+    background-image: linear-gradient(to left, green, orange);
+}
+
+#footer_nosotros {
+    background-image: linear-gradient(to left, green, orange);
+}
+
+/* Contacto */
+
+
+
+#divisor_contacto {
+    display: flex;
+    gap: 90px;
+    margin-top: 100px;
+
+}
+
+.name {
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    border-color: black;
+}
+
+.password {
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    border-color: black;
+}
+
+.select {
+
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    border-color: black;
+}
+
+.enviar_datos {
+
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+}
+
+.borrar_todo {
+
+    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+}
+
+
+
+/* Puntos de venta */
+
+#fondo_pantalla {
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+
+}
+
+.lugar__encuentro {
+    text-align: center;
+
+
+}
+
+.container__iframe {
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    gap: 150px;
+    margin-top: 50px;
+}
+
+
+/* Galeria */
+
+
+
+#galery_container {
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 30vh 40vh 30vh;
+    grid-gap: 10px;
+
+
+}
+
+
+
+img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+@media screen and (max-width:1155px) {
+
+    #quienes_somos_divisor {
+
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+    }
+
+    #video_center {
+
+        margin-bottom: 100px;
+    }
+
+    h3 {
+
+        margin-top: 80px;
+    }
+
+    h4 {
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+
+    /*inicio */
+    .menu {
+        font-size: .9em;
+        gap: 10px;
+    }
+
+    .titulo {
+        font-size: .9em;
+    }
+
+    .section_one {
+        max-width: 500px;
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        margin-top: 30px;
+    }
+
+
+
+    p {
+
+        text-align: center;
+    }
+
+    /* contacto */
+
+
+    #divisor_contacto {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+
+    /* galeria */
+
+
+    #galery_container {
+
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30vh 40vh 30vh;
+        grid-gap: 10px;
+
+
+    }
+
+
+    /* quienes somos */
+
+    h4 {
+
+        font-size: 70px;
+    }
+
+    #quienes_somos_divisor {
+        gap: 10px;
+    }
+
+
+    /* puntos de venta */
+
+    .container__iframe {
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    /* inicio */
+
+    .menu {
+
+        font-size: .8em;
+    }
+
+    .section_one {
+        max-width: 250px;
+
+    }
+
+    .titulo {
+        display: none;
+    }
+
+    /* contacto */
+
+    form {
+
+        font-size: .8em;
+    }
+
+    /* galeria */
+
+    #galery_container {
+
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh 40vh 30vh;
+        grid-gap: 10px;
+    }
+
+
+
+
+}
+
+
+
