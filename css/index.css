@@ -27,7 +27,7 @@ body {
 }
 
 header {
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     display: flex;
     justify-content: space-between;
     padding: 15px;
@@ -38,7 +38,7 @@ header {
 
 
 main {
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,7 +58,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
+    
 
 }
 
@@ -66,7 +66,7 @@ main {
 
 
 footer {
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     display: flex;
     justify-content: flex-end;
     text-align: right;
@@ -77,14 +77,12 @@ footer {
 }
 
 #dog {
-    max-width: 600px;
+    max-width: 450px;
     border-style: hidden;
-    border-radius: 100%;
-
-
+    border-radius:100%;
+    animation: be_crazy 4s infinite alternate ease-in-out;
 
 }
-
 
 
 
@@ -118,6 +116,12 @@ a {
 
     color: black;
     font-size: 3em;
+    transform:
+}
+
+.titulo:hover {
+transform: scale(1.1);
+
 }
 
 p {
@@ -175,35 +179,37 @@ h4 {
 
 #divisor_contacto {
     display: flex;
+    
     gap: 90px;
     margin-top: 100px;
+    
 
 }
 
 .name {
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     border-color: black;
 }
 
 .password {
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     border-color: black;
 }
 
 .select {
 
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     border-color: black;
 }
 
 .enviar_datos {
 
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
 }
 
 .borrar_todo {
 
-    background-image: linear-gradient(to left, #82f68e, #84f280, #87ee71, #8bea62, #8fe651, #99e747, #a3e83b, #ade82e, #bfee26, #d2f41d, #e5fa11, #f8ff00);
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
 }
 
 
@@ -398,5 +404,12 @@ img {
 
 }
 
+@keyframes be_crazy {
 
+from {
+    transform: rotate(0deg);
+}
 
+to {
+    transform: rotate(360deg);
+}
