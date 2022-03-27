@@ -13,7 +13,7 @@ html {
 
 
 body {
-
+    font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: grid;
     grid-template-rows: 8vh auto 5vh;
@@ -36,6 +36,10 @@ header {
 
 }
 
+h1 {
+
+    font-weight: bolder;
+}
 
 main {
     background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
@@ -58,7 +62,7 @@ main {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    font-size:xx-large;
+    font-size: xx-large;
 
 
 }
@@ -97,7 +101,7 @@ footer {
     text-decoration: none;
     padding-right: 20px;
     font-size: 1.5em;
-    
+
 
 
 }
@@ -112,7 +116,11 @@ a {
 
 }
 
+h7 {
 
+    font-weight: bolder;
+    font-size: xx-large;
+}
 
 .titulo {
 
@@ -130,11 +138,37 @@ p {
     font-size: xx-large;
     font-weight: bolder;
     text-align: center;
+
 }
+
+article {
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+#carouselExampleControls {
+
+    width: 500px;
+    max-height: 300px;
+    margin-top: 50px;
+}
+
 
 /* Quienes somos */
 
+#accordionExample {
 
+    width: 500px;
+    margin-right: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+
+.accordion-button {
+
+    font-size: xx-large;
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+}
 
 #quienes_somos_divisor {
 
@@ -151,7 +185,7 @@ h3 {
 
 #video_center {
 
-    margin-top: 150px;
+    margin-top: 50px;
     margin-right: 20px;
 }
 
@@ -177,44 +211,14 @@ h4 {
 
 /* Contacto */
 
-
-
 #divisor_contacto {
-    display: flex;
-
-    gap: 90px;
-    margin-top: 100px;
-
-
+    margin-left: 50px;
 }
 
-.name {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-    border-color: black;
+.row {
+    margin-top: 50px;
+    margin-bottom: 10px;
 }
-
-.password {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-    border-color: black;
-}
-
-.select {
-
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-    border-color: black;
-}
-
-.enviar_datos {
-
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-}
-
-.borrar_todo {
-
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-}
-
-
 
 /* Puntos de venta */
 
@@ -222,7 +226,8 @@ h4 {
 
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
+    margin-bottom: 50px;
+
 
 }
 
@@ -239,8 +244,39 @@ h4 {
     text-align: center;
     gap: 150px;
     margin-top: 50px;
+    
 }
 
+
+.container {
+    gap: 100px;
+    
+}
+
+.card-body {
+
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+}
+
+.card {
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+}
+
+.card-text {
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: medium;
+}
+
+.card-title {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.btn {
+    font-size: x-large;
+}
 
 /* Galeria */
 
@@ -252,7 +288,6 @@ h4 {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 30vh 40vh 30vh;
     grid-gap: 10px;
-
 
 }
 
@@ -400,8 +435,6 @@ img {
         grid-template-rows: 30vh 40vh 30vh;
         grid-gap: 10px;
     }
-
-
 
 
 }
