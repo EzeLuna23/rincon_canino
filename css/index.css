@@ -406,10 +406,7 @@ font-size: xx-large;
         width: 300px;
     }
 
-    body {
-
-        max-height: 100vh;
-    }
+    
     .titulo {
         display: none;
     }
