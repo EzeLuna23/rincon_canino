@@ -81,16 +81,6 @@ footer {
 
 }
 
-#dog {
-    max-width: 450px;
-    border-style: hidden;
-    border-radius: 100%;
-    animation: be_crazy 4s infinite alternate ease-in-out;
-
-}
-
-
-
 
 .menu {
 
@@ -101,8 +91,6 @@ footer {
     text-decoration: none;
     padding-right: 20px;
     font-size: 1.5em;
-
-
 
 }
 
@@ -278,7 +266,7 @@ h4 {
 }
 
 .btn {
-    font-size: x-large;
+    font-size: medium;
 }
 
 /* Galeria */
@@ -303,15 +291,15 @@ img {
 
 }
 
+h5 {
+font-size: xx-large;
+
+}
+
+
 @media screen and (max-width:1155px) {
 
-    #quienes_somos_divisor {
-
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
+   
 
     #video_center {
 
@@ -342,7 +330,7 @@ img {
     }
 
     .section_one {
-        max-width: 500px;
+        
         display: flex;
         flex-direction: column;
         font-size: medium;
@@ -413,11 +401,15 @@ img {
         font-size: .8em;
     }
 
-    .section_one {
-        max-width: 250px;
+    #carouselExampleControls {
 
+        width: 300px;
     }
 
+    body {
+
+        max-height: 100vh;
+    }
     .titulo {
         display: none;
     }
@@ -442,12 +434,3 @@ img {
 
 }
 
-@keyframes be_crazy {
-
-    from {
-        transform: rotate(0deg);
-    }
-
-    to {
-        transform: rotate(360deg);
-    }
