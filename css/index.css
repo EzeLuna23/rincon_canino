@@ -1,4 +1,4 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,10 +9,10 @@ html {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 62.5%;
 
-}
+} */
 
 
-body {
+/* body {
     font-family: Arial, Helvetica, sans-serif;
     min-height: 100vh;
     display: grid;
@@ -24,9 +24,9 @@ body {
         "footer";
 
 
-}
+} */
 
-header {
+/* header {
     background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     display: flex;
     justify-content: space-between;
@@ -34,14 +34,14 @@ header {
     align-items: flex-end;
 
 
-}
+} */
 
-h1 {
+/* h1 {
 
     font-weight: bolder;
-}
+} */
 
-main {
+/* main {
     background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     display: flex;
     flex-direction: column;
@@ -53,9 +53,9 @@ main {
     font-size: x-large;
 
 
-}
+} */
 
-.section_one {
+/* .section_one {
 
     text-align: center;
     align-items: center;
@@ -65,12 +65,12 @@ main {
     font-size: xx-large;
 
 
-}
+} */
 
 
 
 
-footer {
+/* footer {
     background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
     display: flex;
     justify-content: flex-end;
@@ -79,10 +79,10 @@ footer {
     padding-top: 10px;
 
 
-}
+} */
 
 
-.menu {
+/* .menu {
 
     display: flex;
     flex-direction: row;
@@ -102,25 +102,26 @@ a {
 .menu>li>a:hover {
     color: white;
 
-}
+} */
 
-h7 {
+/* h7 {
 
     font-weight: bolder;
     font-size: xx-large;
-}
+} */
 
-.titulo {
+/* .titulo {
 
     color: black;
     font-size: 3em;
     transform:
+
 }
 
 .titulo:hover {
     transform: scale(1.1);
 
-}
+} */
 
 p {
     font-size: xx-large;
@@ -129,10 +130,10 @@ p {
 
 }
 
-article {
+/* article {
     font-weight: bolder;
     margin-top: 50px;
-}
+} */
 
 #carouselExampleControls {
 
@@ -149,7 +150,7 @@ article {
     width: 500px;
     margin-right: 15px;
     font-family: 'Times New Roman', Times, serif;
-    
+
 }
 
 .accordion-button {
@@ -235,13 +236,13 @@ h4 {
     text-align: center;
     gap: 150px;
     margin-top: 50px;
-    
+
 }
 
 
 .container {
     gap: 100px;
-    
+
 }
 
 .card-body {
@@ -299,7 +300,7 @@ font-size: xx-large;
 
 @media screen and (max-width:1155px) {
 
-   
+
 
     #video_center {
 
@@ -330,7 +331,7 @@ font-size: xx-large;
     }
 
     .section_one {
-        
+
         display: flex;
         flex-direction: column;
         font-size: medium;
@@ -406,7 +407,7 @@ font-size: xx-large;
         width: 300px;
     }
 
-    
+
     .titulo {
         display: none;
     }

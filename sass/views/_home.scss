@@ -1,0 +1,29 @@
+.section_one {
+
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: xx-large;
+
+    #carouselExampleControls {
+
+        width: 500px;
+        max-height: 300px;
+        margin-top: 50px;
+    }
+
+
+    h7 {
+
+        font-weight: bolder;
+        font-size: xx-large;
+    }
+
+    article {
+        font-weight: bolder;
+        margin-top: 50px;
+    }
+
+}

@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 62.5%; }
+
+header {
+  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: flex-end; }
+  header h1 {
+    font-weight: bolder; }
+  header .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    list-style-type: none;
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 1.5em; }
+  header a {
+    text-decoration: none;
+    color: black; }
+  header .menu > li > a:hover {
+    color: white; }
+  header .titulo {
+    color: black;
+    font-size: 3em; }
+  header .titulo:hover {
+    transform: scale(1.1); }
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: 8vh auto 5vh;
+  grid-template-areas: "header" "main" "footer"; }
+  body main {
+    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    padding: 20px;
+    gap: 20px;
+    font-family: 'Shadows Into Light', cursive;
+    font-size: x-large; }
+
+footer {
+  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+  padding-right: 2%;
+  padding-top: 10px; }
+
+.section_one {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: xx-large; }
+  .section_one #carouselExampleControls {
+    width: 500px;
+    max-height: 300px;
+    margin-top: 50px; }
+  .section_one h7 {
+    font-weight: bolder;
+    font-size: xx-large; }
+  .section_one article {
+    font-weight: bolder;
+    margin-top: 50px; }
