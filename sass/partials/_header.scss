@@ -4,6 +4,7 @@ header {
     justify-content: space-between;
     padding: 15px;
     align-items: flex-end;
+    
 
     h1 {
 
@@ -14,12 +15,13 @@ header {
 
         display: flex;
         flex-direction: row;
+        margin-bottom: auto;
         gap: 20px;
         list-style-type: none;
         text-decoration: none;
         padding-right: 20px;
         font-size: 1.5em;
-    
+        
     }
     
     a {
@@ -42,5 +44,29 @@ header {
         transform: scale(1.1);
     
     }
+
+}
+
+@media screen and (max-width:768px) {
+
+    
+    .menu {
+        font-size: .9em;
+        gap: 10px;
+    }
+
+    .titulo {
+        font-size: .9em;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    .menu {
+
+        font-size: .8em;
+    }
+
 
 }

@@ -27,3 +27,23 @@
     }
 
 }
+
+@media screen and (max-width:768px) {
+
+    .section_one {
+
+        display: flex;
+        flex-direction: column;
+        font-size: medium;
+        margin-top: 30px;
+    }
+}
+
+
+@media screen and (max-width:400px) {
+
+        #carouselExampleControls {
+
+            width: 300px;
+        }
+}

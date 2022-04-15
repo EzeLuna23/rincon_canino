@@ -1,0 +1,28 @@
+#divisor_contacto {
+    margin-left: 50px;
+
+    .row {
+        margin-top: 50px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+    #divisor_contacto {
+
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+
+}
+
+@media screen and (max-width:400px) {
+
+    form {
+
+        font-size: .8em;
+    }
+
+}

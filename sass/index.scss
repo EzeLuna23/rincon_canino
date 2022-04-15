@@ -1,7 +1,21 @@
+
+/*general*/
 @import "./misc/normalize";
 
+/*header*/
 @import "./partials/header";
+/*body*/
 @import "./partials/body";
+/*footer*/
 @import "./partials/footer";
 
+/*home*/
 @import "./views/home";
+/*quienes somos*/
+@import "./views/quienessomos";
+/*contacto*/
+@import "./views/contacto";
+/*puntos de venta*/
+@import "./views/puntosdeventa";
+/*galeria*/
+@import "./views/galeria";

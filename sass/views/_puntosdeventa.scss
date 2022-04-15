@@ -1,0 +1,80 @@
+#fondo_pantalla {
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+
+    .lugar__encuentro {
+        text-align: center;
+    
+    
+    }
+
+    .container {
+
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        gap: 100px;
+        margin-top: 50px;
+        max-width: 1200px;
+        max-height: 600px;
+
+        img {
+
+            max-width: 483px;
+            max-height: 281px;
+        }
+    
+    }
+
+    p {
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: center;
+    
+    }
+
+    .card-body {
+
+        background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+    }
+    
+    .card {
+        background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+    }
+    
+    .card-text {
+    
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: medium;
+    }
+    
+    .card-title {
+        font-size: xx-large;
+        font-weight: bolder;
+        text-align: center;
+    }
+    
+    .btn {
+        font-size: medium;
+    }
+
+
+}
+
+@media screen and (max-width:768px) {
+
+    p {
+
+        text-align: center;
+    }
+
+    .container {
+
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}
