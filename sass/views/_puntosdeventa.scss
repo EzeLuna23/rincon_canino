@@ -13,9 +13,8 @@
     .container {
 
         display: flex;
-        flex-direction: row;
+        @include flex(row, auto, auto, 100px);
         text-align: center;
-        gap: 100px;
         margin-top: 50px;
         max-width: 1200px;
         max-height: 600px;
@@ -29,9 +28,9 @@
     }
 
     p {
-        font-size: xx-large;
         font-weight: bolder;
         text-align: center;
+        font-size: map-get($fonts, medium);
     
     }
 
@@ -60,6 +59,12 @@
         font-size: medium;
     }
 
+    .btn-primary {
+        @extend .btn;
+        border-style:groove;
+        border-color: black;
+
+    }
 
 }
 
@@ -75,6 +80,10 @@
         display: flex;
         flex-direction: column;
         gap: 50px;
+        
+        .card {
+            max-width: 100%;
+        }
     }
 
 }

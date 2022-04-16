@@ -1,10 +1,8 @@
 .section_one {
 
     text-align: center;
-    align-items: center;
     display: flex;
-    flex-direction: column;
-    gap: 20px;
+    @include flex(column, auto, center, 20px);
     font-size: xx-large;
 
     #carouselExampleControls {
@@ -26,24 +24,31 @@
         margin-top: 50px;
     }
 
-}
+    @media screen and (max-width:768px) {
 
-@media screen and (max-width:768px) {
+        .section_one {
+    
+            display: flex;
+            flex-direction: column;
+            font-size: medium;
+            margin-top: 30px;
 
-    .section_one {
-
-        display: flex;
-        flex-direction: column;
-        font-size: medium;
-        margin-top: 30px;
-    }
-}
-
-
-@media screen and (max-width:400px) {
+        }
 
         #carouselExampleControls {
-
-            width: 300px;
+    
+            width: 400px;
         }
+    }
+    
+    
+    @media screen and (max-width:400px) {
+    
+            #carouselExampleControls {
+    
+                width: 300px;
+            }
+    }
+
 }
+

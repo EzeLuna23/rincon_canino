@@ -12,15 +12,10 @@ body {
         main {
             background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-items: center;
+            @include flex(column, center, center, 20px);
             padding: 20px;
-            gap: 20px;
             font-family: 'Shadows Into Light', cursive;
             font-size: x-large;
-        
-        
         }
 
 
