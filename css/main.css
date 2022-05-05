@@ -15,16 +15,50 @@ header {
   justify-content: space-between;
   align-items: flex-end;
   gap: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: auto;
   padding: 15px; }
-  @media screen and (max-width: 768px) {
-    header .menu {
-      font-size: .9em;
-      gap: 10px; }
-    header .titulo {
-      font-size: .9em; } }
-  @media screen and (max-width: 400px) {
-    header .menu {
-      font-size: .8em; } }
+
+h1 {
+  font-weight: bolder; }
+
+header .menu {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: auto;
+  gap: 20px;
+  list-style-type: none;
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 1.5em; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+.menu > li > a:hover {
+  color: white; }
+
+.titulo {
+  color: black;
+  font-size: 3em; }
+
+.titulo:hover {
+  transform: scale(1.1); }
+
+@media screen and (max-width: 768px) {
+  .menu {
+    font-size: .9em;
+    gap: 10px; }
+  .titulo {
+    font-size: .9em; } }
+
+@media screen and (max-width: 400px) {
+  .menu {
+    font-size: .8em; } }
 
 /*body*/
 body {
