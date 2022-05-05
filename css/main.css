@@ -76,7 +76,10 @@ footer {
   gap: auto;
   text-align: right;
   padding-right: 2%;
-  padding-top: 10px; }
+  padding-top: 10px;
+  gap: 15px; }
+  footer .bi-instagram {
+    gap: 15px; }
 
 /*home*/
 .section_one {
@@ -109,15 +112,15 @@ footer {
     .section_one #carouselExampleControls {
       width: 300px; } }
 
-footer .bi-whatsapp {
-  gap: 10px; }
+.bi-whatsapp {
+  gap: 15px; }
 
 /*quienes somos*/
 #header_nosotros {
-  background-image: linear-gradient(to left, green, orange); }
+  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
 
 #main_nosotros {
-  background-image: linear-gradient(to left, green, orange); }
+  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
   #main_nosotros #accordionExample {
     width: 500px;
     margin-right: 15px;
@@ -128,9 +131,6 @@ footer .bi-whatsapp {
   #main_nosotros #video_center {
     margin-top: 50px;
     margin-right: 20px; }
-
-#footer_nosotros {
-  background-image: linear-gradient(to left, green, orange); }
 
 @media screen and (max-width: 1155px) {
   #video_center {
