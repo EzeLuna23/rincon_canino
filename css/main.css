@@ -11,10 +11,6 @@ html {
 /*header*/
 header {
   background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -23,7 +19,7 @@ header {
   padding: 15px; }
   header h1 {
     font-weight: bolder; }
-  header header .menu {
+  header .menu {
     display: flex;
     flex-direction: row;
     margin-bottom: auto;
@@ -112,6 +108,9 @@ footer {
   @media screen and (max-width: 400px) {
     .section_one #carouselExampleControls {
       width: 300px; } }
+
+footer .bi-whatsapp {
+  gap: 10px; }
 
 /*quienes somos*/
 #header_nosotros {
