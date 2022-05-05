@@ -11,33 +11,11 @@ html {
 /*header*/
 header {
   background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-  display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
   gap: auto;
   padding: 15px; }
-  header h1 {
-    font-weight: bolder; }
-  header .menu {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: auto;
-    gap: 20px;
-    list-style-type: none;
-    text-decoration: none;
-    padding-right: 20px;
-    font-size: 1.5em; }
-  header a {
-    text-decoration: none;
-    color: black; }
-  header .menu > li > a:hover {
-    color: white; }
-  header .titulo {
-    color: black;
-    font-size: 3em; }
-  header .titulo:hover {
-    transform: scale(1.1); }
   @media screen and (max-width: 768px) {
     header .menu {
       font-size: .9em;
