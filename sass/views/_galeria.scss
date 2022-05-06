@@ -12,8 +12,7 @@ h5 {
 
 }
 
-$images: (
-    gato: "gato",
+$images: (gato: "gato",
     tigre: "tigre",
     nutria: "nutria",
     iguana: "iguana",
@@ -24,7 +23,8 @@ $images: (
     koala: "koala",
 );
 
-@each $image, $value in $images {
+@each $image,
+$value in $images {
     .img-#{$image} {
 
         width: 100%;
@@ -32,6 +32,23 @@ $images: (
         object-fit: cover;
 
     }
-    
+
 }
 
+@media screen and (max-width: 768px) {
+    #galery_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 30vh 40vh 30vh;
+        grid-gap: 10px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #galery_container {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 30vh 40vh 30vh;
+        grid-gap: 10px;
+    }
+}
