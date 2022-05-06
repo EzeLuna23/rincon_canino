@@ -78,7 +78,8 @@ footer {
   justify-content: auto;
   align-items: center;
   gap: 20px;
-  font-size: xx-large; }
+  font-size: xx-large;
+  gap: 20px; }
   .section_one #carouselExampleControls {
     width: 500px;
     max-height: 300px;
@@ -86,7 +87,8 @@ footer {
   .section_one .spinner {
     display: flex;
     flex-direction: row;
-    gap: 50px; }
+    gap: 50px;
+    margin: auto; }
   .section_one h7 {
     font-weight: bolder;
     font-size: xx-large; }
@@ -99,11 +101,9 @@ footer {
     display: flex;
     flex-direction: column; }
   h7 {
-    padding-top: 50px; } }
-
-@media screen and (max-width: 440px) {
-  main {
-    min-height: 100vh; } }
+    padding-top: 50px; }
+  footer {
+    height: 50vh; } }
 
 /*quienes somos*/
 #main_nosotros #accordionExample {
@@ -113,14 +113,14 @@ footer {
 
 #main_nosotros .accordion-button {
   font-size: xx-large;
-  background-image: linear-gradient(to left, #0400f3, #0f0df0, #1717ed, #1e1dea, #2323e7, #4739ea, #5f4dec, #7360ee, #9987f5, #bcaffa, #ddd7fd, #ffffff); }
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
 
 #main_nosotros .accordion-body {
-  background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff); }
+  background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); }
 
 #main_nosotros #video_center {
   margin-top: 50px;
-  margin-right: 20px; }
+  margin-left: 25px; }
 
 /*contacto*/
 #divisor_contacto {
@@ -128,6 +128,10 @@ footer {
   #divisor_contacto .row {
     margin-top: 50px;
     margin-bottom: 10px; }
+
+@media screen and (max-width: 520px) {
+  header {
+    font-size: .6em; } }
 
 /*puntos de venta*/
 #fondo_pantalla {
@@ -169,6 +173,12 @@ footer {
   #fondo_pantalla .btn-primary {
     border-style: groove;
     border-color: black; }
+
+@media screen and (max-width: 768px) {
+  #fondo_pantalla {
+    font-size: .9em; }
+  footer {
+    align-items: flex-end; } }
 
 /*galeria*/
 #galery_container {
