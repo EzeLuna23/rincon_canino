@@ -35,26 +35,3 @@ $images: (
     
 }
 
-@media screen and (max-width:768px) {
-
-    #galery_container {
-
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 30vh 40vh 30vh;
-        grid-gap: 10px;
-
-    }
-
-}
-
-@media screen and (max-width:400px) {
-
-    #galery_container {
-
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 30vh 40vh 30vh;
-        grid-gap: 10px;
-    }
-}

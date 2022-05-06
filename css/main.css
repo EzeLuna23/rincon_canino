@@ -111,26 +111,12 @@ footer {
   margin-top: 50px;
   margin-right: 20px; }
 
-@media screen and (max-width: 1155px) {
-  #video_center {
-    margin-bottom: 100px; } }
-
 /*contacto*/
 #divisor_contacto {
   margin-left: 50px; }
   #divisor_contacto .row {
     margin-top: 50px;
     margin-bottom: 10px; }
-
-@media screen and (max-width: 768px) {
-  #divisor_contacto {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 50px; } }
-
-@media screen and (max-width: 400px) {
-  form {
-    font-size: .8em; } }
 
 /*puntos de venta*/
 #fondo_pantalla {
@@ -139,7 +125,7 @@ footer {
   margin-bottom: 50px; }
   #fondo_pantalla .lugar__encuentro {
     text-align: center; }
-  #fondo_pantalla .container {
+  #fondo_pantalla .container-card {
     display: flex;
     flex-direction: row;
     justify-content: auto;
@@ -149,7 +135,7 @@ footer {
     margin-top: 50px;
     max-width: 1200px;
     max-height: 600px; }
-    #fondo_pantalla .container img {
+    #fondo_pantalla .container-card img {
       max-width: 483px;
       max-height: 281px; }
   #fondo_pantalla p {
@@ -172,16 +158,6 @@ footer {
   #fondo_pantalla .btn-primary {
     border-style: groove;
     border-color: black; }
-
-@media screen and (max-width: 768px) {
-  p {
-    text-align: center; }
-  .container {
-    display: flex;
-    flex-direction: column;
-    gap: 50px; }
-    .container .card {
-      max-width: 100%; } }
 
 /*galeria*/
 #galery_container {
@@ -237,17 +213,3 @@ h5 {
   width: 100%;
   height: 100%;
   object-fit: cover; }
-
-@media screen and (max-width: 768px) {
-  #galery_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 30vh 40vh 30vh;
-    grid-gap: 10px; } }
-
-@media screen and (max-width: 400px) {
-  #galery_container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 30vh 40vh 30vh;
-    grid-gap: 10px; } }

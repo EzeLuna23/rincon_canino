@@ -10,7 +10,7 @@
     
     }
 
-    .container {
+    .container-card {
 
         display: flex;
         @include flex(row, auto, auto, 100px);
@@ -68,22 +68,3 @@
 
 }
 
-@media screen and (max-width:768px) {
-
-    p {
-
-        text-align: center;
-    }
-
-    .container {
-
-        display: flex;
-        flex-direction: column;
-        gap: 50px;
-        
-        .card {
-            max-width: 100%;
-        }
-    }
-
-}
