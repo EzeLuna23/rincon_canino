@@ -10,7 +10,7 @@ html {
 
 /*header*/
 header {
-  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+  background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -56,7 +56,7 @@ body {
   grid-template-rows: 8vh auto 5vh;
   grid-template-areas: "header" "main" "footer"; }
   body main {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+    background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -68,7 +68,7 @@ body {
 
 /*footer*/
 footer {
-  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+  background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff);
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
@@ -78,8 +78,6 @@ footer {
   padding-right: 2%;
   padding-top: 10px;
   gap: 15px; }
-  footer .bi-instagram {
-    gap: 15px; }
 
 /*home*/
 .section_one {
@@ -93,13 +91,17 @@ footer {
   .section_one #carouselExampleControls {
     width: 500px;
     max-height: 300px;
-    margin-top: 50px; }
+    margin-top: 40px; }
+  .section_one .spinner {
+    display: flex;
+    flex-direction: row;
+    gap: 50px; }
   .section_one h7 {
     font-weight: bolder;
     font-size: xx-large; }
   .section_one article {
     font-weight: bolder;
-    margin-top: 50px; }
+    margin-top: 85px; }
   @media screen and (max-width: 768px) {
     .section_one .section_one {
       display: flex;
@@ -112,25 +114,22 @@ footer {
     .section_one #carouselExampleControls {
       width: 300px; } }
 
-.bi-whatsapp {
-  gap: 15px; }
-
 /*quienes somos*/
-#header_nosotros {
-  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
+#main_nosotros #accordionExample {
+  width: 500px;
+  margin-right: 15px;
+  font-family: 'Times New Roman', Times, serif; }
 
-#main_nosotros {
-  background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
-  #main_nosotros #accordionExample {
-    width: 500px;
-    margin-right: 15px;
-    font-family: 'Times New Roman', Times, serif; }
-  #main_nosotros .accordion-button {
-    font-size: xx-large;
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
-  #main_nosotros #video_center {
-    margin-top: 50px;
-    margin-right: 20px; }
+#main_nosotros .accordion-button {
+  font-size: xx-large;
+  background-image: linear-gradient(to left, #0400f3, #0f0df0, #1717ed, #1e1dea, #2323e7, #4739ea, #5f4dec, #7360ee, #9987f5, #bcaffa, #ddd7fd, #ffffff); }
+
+#main_nosotros .accordion-body {
+  background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff); }
+
+#main_nosotros #video_center {
+  margin-top: 50px;
+  margin-right: 20px; }
 
 @media screen and (max-width: 1155px) {
   #video_center {
@@ -178,9 +177,9 @@ footer {
     text-align: center;
     font-size: 1.5em; }
   #fondo_pantalla .card-body {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
+    background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff); }
   #fondo_pantalla .card {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f); }
+    background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff); }
   #fondo_pantalla .card-text {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: medium; }

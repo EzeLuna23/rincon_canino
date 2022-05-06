@@ -9,9 +9,16 @@
 
         width: 500px;
         max-height: 300px;
-        margin-top: 50px;
+        margin-top: 40px;
     }
 
+    .spinner {
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        
+        
+    }
 
     h7 {
 
@@ -21,13 +28,13 @@
 
     article {
         font-weight: bolder;
-        margin-top: 50px;
+        margin-top: 85px;
     }
 
     @media screen and (max-width:768px) {
 
         .section_one {
-    
+
             display: flex;
             flex-direction: column;
             font-size: medium;
@@ -36,20 +43,18 @@
         }
 
         #carouselExampleControls {
-    
+
             width: 400px;
         }
     }
-    
-    
+
+
     @media screen and (max-width:400px) {
-    
-            #carouselExampleControls {
-    
-                width: 300px;
-            }
+
+        #carouselExampleControls {
+
+            width: 300px;
+        }
     }
 
 }
-
-

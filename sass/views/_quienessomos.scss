@@ -1,11 +1,8 @@
-#header_nosotros {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-}
+
 
 
 #main_nosotros {
-    background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
-
+    
 
     #accordionExample {
 
@@ -18,7 +15,11 @@
     .accordion-button {
 
         font-size: xx-large;
-        background-image: linear-gradient(to left, #8ed16b, #9ad963, #a7e15a, #b6e950, #c6f043, #d3ef3e, #dfee3b, #ebec38, #f2e341, #f7da4b, #fad155, #fbc95f);
+        background-image: linear-gradient(to left, #0400f3, #0f0df0, #1717ed, #1e1dea, #2323e7, #4739ea, #5f4dec, #7360ee, #9987f5, #bcaffa, #ddd7fd, #ffffff);
+    }
+
+    .accordion-body {
+        background-image: linear-gradient(to left, #ffffff, #e5ebf7, #c1dbec, #96ccda, #70bdbc, #70bdbc, #70bdbc, #70bdbc, #96ccda, #c1dbec, #e5ebf7, #ffffff);
     }
 
     #video_center {
