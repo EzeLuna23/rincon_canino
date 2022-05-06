@@ -38,25 +38,5 @@ header {
         transform: scale(1.1);
     }
 
-    @media screen and (max-width: 768px) {
-
-        .menu {
-            font-size: .9em;
-            gap: 10px;
-        }
-
-        .titulo {
-            font-size: .9em;
-        }
-
-    }
-
-    @media screen and (max-width:400px) {
-
-        .menu {
-
-            font-size: .8em;
-        }
-
-    }
+    
 }

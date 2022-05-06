@@ -38,15 +38,6 @@ header {
     font-size: 3em; }
   header .titulo:hover {
     transform: scale(1.1); }
-  @media screen and (max-width: 768px) {
-    header .menu {
-      font-size: .9em;
-      gap: 10px; }
-    header .titulo {
-      font-size: .9em; } }
-  @media screen and (max-width: 400px) {
-    header .menu {
-      font-size: .8em; } }
 
 /*body*/
 body {
@@ -102,17 +93,6 @@ footer {
   .section_one article {
     font-weight: bolder;
     margin-top: 85px; }
-  @media screen and (max-width: 768px) {
-    .section_one .section_one {
-      display: flex;
-      flex-direction: column;
-      font-size: medium;
-      margin-top: 30px; }
-    .section_one #carouselExampleControls {
-      width: 400px; } }
-  @media screen and (max-width: 400px) {
-    .section_one #carouselExampleControls {
-      width: 300px; } }
 
 /*quienes somos*/
 #main_nosotros #accordionExample {
